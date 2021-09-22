@@ -1,6 +1,6 @@
 # Jorge-Tinajero-p1
 
-## User Stories
+### User Stories
 
 * As a user have the ability to log in
 -as an employee 
