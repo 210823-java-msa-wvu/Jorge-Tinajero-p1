@@ -2,7 +2,8 @@
 
 # User Stories
 
-* As a user have the ability to log in * as an employee * direct supervisor * depratment head * benefits coordinator
+* As a user have the ability to log in
+*as an employee * direct supervisor * depratment head * benefits coordinator
 
 * As an employee you are able to claim 1000 dollars in reimbursement per year and resets every year. Reimbursment form must be completed one week before the start of event. The form must collect
 -Date, time
