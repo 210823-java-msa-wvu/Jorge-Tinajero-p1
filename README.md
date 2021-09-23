@@ -1,6 +1,6 @@
 # Jorge-Tinajero-p1
 
-### User Stories
+## User Stories
 
 * As a user have the ability to log in
 -as an employee 
@@ -26,3 +26,11 @@
 -Technical Training 90%
 -Other 30%
 
+* Grades
+  -will be pulled from reference table
+  -some will need a presentation
+  -employee will provide passing grade cutoff or choose default if unknown
+  -if they have approval email that approval step is skipped(not skip BenCop)
+  -will be marked urgent if the event is less than 2 weeks from starting
+* Direct supervisor
+ -if they are also department head that step is skipped
