@@ -34,3 +34,16 @@
   -will be marked urgent if the event is less than 2 weeks from starting
 * Direct supervisor
  -if they are also department head that step is skipped
+ -can request extra info form the employee before approval
+ -if denied the supervisor must provide reason.
+ -if they do not complete in timely manner it is automaticaly approved
+ * Department Head 
+  -can request additional info from empoyee or direct supervisor
+  -if it is not completed in a timely manner it is automatically approved
+ * Benefits Coordinator
+   - Not skippable for anyreason
+   - can request additional infor from anyone.
+   - can alter reinbursement amount
+   - if doesnt respond in a timely manner an email should be sent to the benco's direct supervisor
+   - can also award a larger amount than that available for the employee, and provide reason
+  If the amount is changed the employee must be notified and will have the ability to cancel the request. Employee must provide a grade or presentation, BenCo must confirm the grade is passing. Direct supervisor must confirm the presentation is satisfactory and presented to the parties. Then the award will be provided.
