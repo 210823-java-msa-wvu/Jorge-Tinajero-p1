@@ -45,5 +45,6 @@
    - can request additional infor from anyone.
    - can alter reinbursement amount
    - if doesnt respond in a timely manner an email should be sent to the benco's direct supervisor
-   - can also award a larger amount than that available for the employee, and provide reason
-If the amount is changed the employee must be notified and will have the ability to cancel the request. Employee must provide a grade or presentation, BenCo must confirm the grade is passing. Direct supervisor must confirm the presentation is satisfactory and presented to the parties. Then the award will be provided.
+   - can also award a larger amount than that available for the employee, and provide reason.
+   
+  If the amount is changed the employee must be notified and will have the ability to cancel the request. Employee must provide a grade or presentation, BenCo must confirm the grade is passing. Direct supervisor must confirm the presentation is satisfactory and presented to the parties. Then the award will be provided.
