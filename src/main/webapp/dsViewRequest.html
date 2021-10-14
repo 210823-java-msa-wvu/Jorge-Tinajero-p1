@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Supervisor Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/R.38855ef8141655856dfcaea01fb61641?rik=CUeldlGhotMA%2bA&riu=http%3a%2f%2fwww.kuenstlerische-grundlagen.de%2fwp-content%2fgallery%2fzeichnen%2f20201201_112237054_iOS.jpg&ehk=I8nNjKhD8HoA5rxRQLgDLzhSmg2eyZIvj%2b0fj%2bz6PeQ%3d&risl=&pid=ImgRaw&r=0" />
+</head>
+<body> 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+<body onload="displayMoney()" >
+    <div>
+        <center>
+            <h1 id = "employee"></h1>
+            <hr>
+        </center>
+        <h3 id="moneyLeft"></h3>
+    
+<!--    <form method="get">-->
+        <nav>
+            <ul>
+                <a href=ReimburseS.html>Request Reimbursement</a> |
+                <a href=welcomeDS.html>Previous Page</a> |
+                <a href=login.html onclick="logout()">Log out</a>
+            </ul>
+        </nav>
+    </div>
+    <button onclick="showEmpRequests()" class="btn btn-primary">See Open Requests</button>
+    <br><br>
+        <!-- <form action="employeereimbursement" method="get">
+            <input type="submit" value="testing" onclick="showEmpRequests()">
+        </form> -->
+        <div id="show"></div>
+        <!-- <button href=login.html onclick="logout()" class="btn btn-sm btn-primary">Log out</button> -->
+</body>
+<script src="js/empMenu.js"></script>
+<script src="js/displayRequests.js"></script>
+<script src="js/changeGrade.js"></script>
+</html>
